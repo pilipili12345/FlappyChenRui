@@ -52,7 +52,7 @@ var playButton, restartButton, feedbackButton, playBgmButton;
 
 function setLoadingText(percent) {
   loadingText.setText(
-    'Loading...\n\n出圈的行程: %s % \n本游戏已被原作者下架\n备份者：\n1026095616@qq.com\n'.replace('%s', percent)
+    'Loading...\n\n出圈的行程: %s % \n作者：\nAcFun/bilibili 国风Author\n'.replace('%s', percent)
   );
 }
 
